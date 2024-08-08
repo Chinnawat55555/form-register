@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Regist Form</title>
+        <script src="./javascripts/formSent.js"></script>
+    </head>
+    <body>
+        <h1>Regist Form</h1>
+        <hr />
+        <form onsubmit="formSent(event)">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" /><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" /><br>
+
+            <label for="first_name">First name:</label><br>
+            <input type="text" id="first_name" name="first_name" /><br>
+
+            <label for="last_name">Last name:</label><br>
+            <input type="text" id="last_name" name="last_name" /><br>
+
+            <label for="date_of_birth">Date of Birth:</label><br>
+            <input type="date" id="date_of_birth" name="date_of_birth" /><br>
+
+            <p>Gender</p>
+            <input type="radio" id="man" name="gender" value="man"/>
+            <label for="man">Man</label><br>
+            <input type="radio" id="woman" name="gender" value="woman"/>
+            <label for="woman">Woman</label><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" /><br>
+
+            <label for="height">height:</label><br>
+            <input type="number" id="height" /><br>
+
+            <label for="weight">weight:</label><br>
+            <input type="number" id="weight" /><br>
+            
+            <input type="submit" value="Submit"></input>
+        </form>
+    </body>
+</html>
